@@ -25,7 +25,7 @@ Simply drag and drop around the image and Hyperlabel will take care of the rest.
 
 After labeling about 80 images in less than a half hour, I exported the annotated dataset in COCO format. From there, I could fire up Dectron 2 and begin training the data.
 
-<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/labeled_pisa.png?raw=True" height="100")
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/labeled_pisa.png?" height="100">
 
 It only takes a few minutes for the model to produce amazing accuracy:
 
