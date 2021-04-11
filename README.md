@@ -1,6 +1,15 @@
 # mask-rcnn-fine-tune-pisa
 (WIP) [Fine Tuning Mask R-CNN on Leaning Tower of Pisa Dataset](https://colab.research.google.com/github/mattignal/mask-rcnn-fine-tune-pisa/blob/main/fine_tune_pisa.ipynb)
 
+#### Progress (bold indicates completion)
+
+1. **Annotate Sample Images**
+2. **Fine-tune on COCO using Pytorch/Detectron**
+3. **Test output**
+4. Tune hyper-perameters
+5. Create custom visualizations
+6. Create custom PyTorch fine-tuning process 
+
 ## Fine-Tuning Custom Dataset with Mask-RCNN via Detectron2
 
 <img src="https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png?raw=True" width="700">
