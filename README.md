@@ -3,7 +3,7 @@
 
 # Fine-Tuning Custom Dataset with Mask-RCNN via Detectron2
 
-![Dectron2]("https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png")
+![Dectectron2]("https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png?raw=True")
 
 In this notebook, we will:
 
