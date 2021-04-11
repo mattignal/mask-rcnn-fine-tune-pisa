@@ -3,7 +3,7 @@
 
 ## Fine-Tuning Custom Dataset with Mask-RCNN via Detectron2
 
-![Dectectron2](https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png?raw=True)
+<img src="https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png?raw=True" width="700")
 
 In the [Google Colab notebook](https://colab.research.google.com/github/mattignal/mask-rcnn-fine-tune-pisa/blob/main/fine_tune_pisa.ipynb), we will:
 
@@ -13,7 +13,7 @@ In the [Google Colab notebook](https://colab.research.google.com/github/mattigna
 
 Our custom dataset involves images of the Leaning Tower of Pisa. Can we use instance segmentation to find it?
 
-![Tourists at Leaning Tower of Pisa](https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Italy_Tower.jpeg?raw=True)
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Italy_Tower.jpeg?raw=True" width="700")
 
 We can use [Hyperlabel](https://sixgill.com/platform/sense-data-annotation/) for quickly annotating images. 
 
@@ -32,6 +32,8 @@ From there, I could fire up Dectron 2 and begin fine-tuning the pre-trained mode
 It only takes a few minutes for the model to produce amazing accuracy on such a small dataset:
 
 !['Tensorboard'](https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Tensorboard_500iter.png?raw=True)
+
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Italy_Tower_results.jpeg?raw=True" width="700")
 
 <img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/pisa_test_labels.png" width="500">
 
