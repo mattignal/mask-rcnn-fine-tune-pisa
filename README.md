@@ -31,7 +31,7 @@ From there, I could fire up Dectron 2 and begin fine-tuning the pre-trained mode
 
 It only takes a few minutes for the model to produce amazing accuracy on such a small dataset:
 
-<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Tensorboard_500iter.png?raw=True" width="700")
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Tensorboard_500iter.png?raw=True" width="700">
 
 <img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Italy_Tower_results.png?raw=True" width="700">
 
