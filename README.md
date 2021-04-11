@@ -1,11 +1,11 @@
 # mask-rcnn-fine-tune-pisa
 (WIP) Fine Tuning Mask R-CNN on Leaning Tower of Pisa Dataset
 
-# Fine-Tuning Custom Dataset with Mask-RCNN via Detectron2
+## Fine-Tuning Custom Dataset with Mask-RCNN via Detectron2
 
 ![Dectectron2]("https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png?raw=True")
 
-In this notebook, we will:
+In the [Google Colab notebook](https://colab.research.google.com/github/mattignal/mask-rcnn-fine-tune-pisa/blob/main/fine_tune_pisa.ipynb), we will:
 
 * Import and structure the custom dataset
 * Fine-tune the Mask-RCNN model pre-trained on the COCO segmentation dataset using the train and validation sets in our custom data
