@@ -23,11 +23,13 @@ Simply drag and drop around the image and Hyperlabel will take care of the rest.
 
 ![Hyperlabel Drag](https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Hyperlabel%20Auto.png?raw=true)
 
-After labeling about 80 images in less than a half hour, I exported the annotated dataset in COCO format. From there, I could fire up Dectron 2 and begin training the data.
+After labeling about 80 images in less than a half hour, I exported the annotated dataset in COCO format. 
+
+From there, I could fire up Dectron 2 and begin fine-tuning the pre-trained model with the new annotated Pisa data.
 
 <img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/labeled_pisa.png?" height="500">
 
-It only takes a few minutes for the model to produce amazing accuracy:
+It only takes a few minutes for the model to produce amazing accuracy on such a small dataset:
 
 !['Tensorboard'](https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Tensorboard_500iter.png?raw=True)
 
