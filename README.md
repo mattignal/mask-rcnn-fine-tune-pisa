@@ -19,9 +19,9 @@ We can use [Hyperlabel](https://sixgill.com/platform/sense-data-annotation/) for
 
 Simply drag and drop around the image and Hyperlabel will take care of the rest.
 
-![Hyperlabel Drag](https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Hyperlabel%20Drag.png?raw=true)
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Hyperlabel%20Drag.png?raw=true" width="700">
 
-![Hyperlabel Drag](https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Hyperlabel%20Auto.png?raw=true)
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Hyperlabel%20Auto.png?raw=true" width="700">
 
 After labeling about 80 images in less than a half hour, I exported the annotated dataset in COCO format. 
 
@@ -31,9 +31,9 @@ From there, I could fire up Dectron 2 and begin fine-tuning the pre-trained mode
 
 It only takes a few minutes for the model to produce amazing accuracy on such a small dataset:
 
-!['Tensorboard'](https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Tensorboard_500iter.png?raw=True)
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Tensorboard_500iter.png?raw=True" width="700")
 
-<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Italy_Tower_results.jpeg?raw=True" width="700">
+<img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/Italy_Tower_results.png?raw=True" width="700">
 
 <img src="https://github.com/mattignal/mask-rcnn-fine-tune-pisa/blob/main/pisa_test_labels.png" width="500">
 
